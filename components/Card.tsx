@@ -7,7 +7,7 @@ const Card = () => {
             </div>
             <div className="absolute -top-3 -right-3 -z-50 w-16 h-16 rounded-full bg-orange-500">
             </div>
-            <div className="h-full w-full flex items-center  rounded-2xl  backdrop-blur-xl  bg-white/75 ">
+            <div className="h-full w-full flex items-center  rounded-2xl  backdrop-blur-3xl  bg-white/75 ">
                 <div className='flex items-center justify-around w-full p-5 gap-5'>
                     <h1>
                         3294820934812034
