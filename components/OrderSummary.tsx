@@ -11,16 +11,16 @@ const OrderSummary = () => {
 
             </h1>
             <div className=' flex  p-5  border-y border-[#665F60] border-collapse my-2'>
-                <img src='https://avatars2.githubusercontent.com/u/17098?s=460&u=a9f9f7b8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8&v=4' alt='github user' className='rounded-lg h-[80xp] w-[80px] border-2 cursor-pointer border-orange-600' />
+                <img src="/profile.svg" alt="" />
                 <div className='w-full flex flex-col justify-between p-3'>
                     <div className='font-bold text-[#665f60] gap-2 flex items-center'>
-                        <h1 className='cursor-pointer'>
-                            Rohan K
+                        <h1 className='cursor-pointer text-[#665F60] text-[20px]'>
+                            Ella.H
                         </h1>
                         {/* verfied logo and counry logo */}
-                        <BadgeCheckIcon className='h-5 cursor-pointer w-5 text-green-500' />
+                        <img src="/verfied.svg" alt="" />
                         {/* enland flag logo */}
-                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" className='rounded-full w-4 h-4' alt="" />
+                        <img src="/flag.svg" alt="flag" />
                     </div>
                     <p className='text-sm flex gap-2'>
                         <AcademicCapIcon className='h-5 cursor-pointer w-5 text-gray-500' />
@@ -34,22 +34,22 @@ const OrderSummary = () => {
             </div>
 
             <div className='p-5 flex flex-col border-b border-[#665f60] border-opacity-60'>
-                <h1 className='text-[#665f60] opacity-60 font-medium text-sm'>
+                <h1 className='date-time-text'>
                     Date and Time
                 </h1>
-                <h1 className='text-xl font-semibold text-[#665f60]'>
+                <h1 className='date-text mt-1'>
                     Friday, February 4, 18:30
                 </h1>
-                <h1 className='text-[#665f60] opacity-60'>
+                <h1 className='time-text'>
                     GMT+5:30
                 </h1>
             </div>
             {/* //todo: APPLY COUPON CODE */}
             <div className='p-5 flex  border-b items-center border-[#665f60] border-opacity-60 gap-1'>
-                <label htmlFor='coupon' className='w-[40%] font-semibold text-sm'>
+                <label htmlFor='coupon' className='w-[40%] apply-coupons'>
                     Apply Coupon
                 </label>
-                <input type="text" name="coupon" id="coupon" maxLength={12} className="bg-white uppercase outline-none w-[60%] rounded-lg p-1" />
+                <input type="text" name="coupon" id="coupon" maxLength={12} className="bg-white uppercase outline-none w-[60%] rounded-lg border p-1" />
             </div>
             {/* make html showing services and taxes */}
             <div className='p-5 flex flex-col border-b border-[#665f60] border-opacity-60 '>
