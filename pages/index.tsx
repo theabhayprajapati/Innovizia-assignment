@@ -7,7 +7,7 @@ import OrderSummary from '../components/OrderSummary'
 
 const Home: NextPage = () => {
   return (
-    <div className='max-w-7xl  font-Poppins mx-auto px-2  '>
+    <div className='font-Poppins mx-auto px-2  '>
       <Head>
         <title>
           Stilly Tree Payment
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <div className="z-50 header-shadow sticky top-0 bg-white  ">
         <Header />
       </div>
-      <main className="flex flex-col-reverse md:flex-row border-blue-400">
+      <main className="flex mt-5 max-w-6xl mx-auto flex-col-reverse md:flex-row border-blue-400">
         <div className='md:w-[70%] mt-2 border md:border-none rounded-3xl shadow-2xl  my-2 md:shadow-none'>
           <Checkout />
         </div>

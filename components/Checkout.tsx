@@ -41,7 +41,7 @@ const Checkout = () => {
                     <h2 className='sub-heading camelcase'>
                         Other Payment Methods
                     </h2>
-                    <div className='flex gap-4 overflow-scroll md:overflow-hidden h-14 items-center w-full'>
+                    <div     className='flex gap-4 overflow-scroll md:overflow-hidden h-14 items-center w-full'>
                         {
                             paymentOptions.map((option, index) => {
                                 return (
