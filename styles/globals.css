@@ -104,10 +104,19 @@
   /* identical to box height */
   text-transform: capitalize;
   color: #FFFFFF;
+  /* added media queries */
+  
+  @media (min-width: 767px) {
+    width :148px;
+    height: 56px;
+  }
+
   /* height: 56px; */
 }
 
-/* @media only screen and (min-width: 768px) { */
+ 
+
+
 
 .circle-style {
   width: 77.17px;

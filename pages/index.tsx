@@ -7,7 +7,7 @@ import OrderSummary from '../components/OrderSummary'
 
 const Home: NextPage = () => {
   return (
-    <div className='max-w-7xl  font-Poppins mx-auto px-2  '>
+    <div className='max-w-7xl  font-Poppins mx-auto md:px-2  '>
       <Head>
         <title>
           Stilly Tree Payment
