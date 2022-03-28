@@ -106,34 +106,8 @@
   color: #FFFFFF;
   /* height: 56px; */
 }
-/* media query laptop size */
 
-/* add media query for laptops
 /* @media only screen and (min-width: 768px) { */
-  .gradient-style-sm {
-  width: 148px;
-  height: 56px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
-  /* identical to box height */
-
-  text-transform: capitalize;
-
-  color: #FFFFFF;
-
-
-
-background: linear-gradient(112.33deg, #FC4D6D 23.89%, #FDA02F 94.22%);
-
-  }
-    /* identical to box height */
-    
-
-  /* width: 148px; */
-
 
 .circle-style {
   width: 77.17px;

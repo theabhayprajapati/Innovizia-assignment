@@ -21,7 +21,7 @@ const Header = () => {
                     <img src="/searchicon.svg" alt="" />
                 </div>
                 <div className='flex items-center gap-8'>
-                    <img src="/rightbar.svg" alt="" />
+                    <img src="/rightbar.svg" alt="" className='hidden md:inline-block' />
                     <div className='flex items-center justify-around gap-5'>
                         <button className="hidden login-button md:inline-flex">
                             Login In
@@ -29,7 +29,6 @@ const Header = () => {
                         <button className="gradient-style-sm">
                             Sign Up
                         </button>
-
                     </div>
                 </div>
             </div>
