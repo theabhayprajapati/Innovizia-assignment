@@ -47,7 +47,7 @@ const Checkout = () => {
                                 return (
                                     <button key={index} className='min-w-[50%] cursor-pointer md:min-w-fit md:w-full max-w-full grid 
                                     focus:border-red-500
-                                    place-items-center border-2 border-gray-400 items-center text-sm px-4 py-2 rounded-xl'>
+                                    place-items-center border-2 border-gray-400 items-center text-sm px-4 py-2  focus:scale-95  hover:scale-95 transform transition-all duration-300 hover:border-red-500 outline-none rounded-xl'>
                                         {option}
                                     </button>
                                 )
@@ -116,7 +116,7 @@ const Checkout = () => {
                         <ArrowSmLeftIcon className="h-5 w-5 text-blue-700" />
                         Back to Personal Details
                     </h1>
-                    <button className='md:px-5 px-2 md:py-3 py-1 make-payment text-white rounded-full  font-bold text-[15px] md:text-[14px] h-[42px] w-[173px]'>
+                    <button tabIndex={0} className='md:px-5 px-2 md:py-3 py-1 make-payment text-white rounded-full outline-none  font-bold text-[15px] md:text-[14px] h-[42px] w-[173px] hover:scale-95 transform transition-all duration-300'>
                         Make Payment
                     </button>
                 </div>
