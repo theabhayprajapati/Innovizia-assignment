@@ -6,7 +6,7 @@ interface cardProps {
 }
 const Card = ({ cardtype }: cardProps) => {
     return (
-        <div className="border-2 shadow-lg rounded-2xl relative" >
+        <div className="shadow-lg rounded-2xl relative" >
             <div className="absolute circle-style -bottom-1 -left-1 -z-50 w-16 h-16 rounded-full bg-orange-500">
             </div>
             <div className="absolute circle-style -top-1 -right-1 -z-50 w-16 h-16 rounded-full bg-orange-500">

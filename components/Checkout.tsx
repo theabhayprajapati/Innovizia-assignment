@@ -45,9 +45,11 @@ const Checkout = () => {
                         {
                             paymentOptions.map((option, index) => {
                                 return (
-                                    <h1 key={index} className='min-w-[50%] cursor-pointer md:min-w-fit md:w-full max-w-full grid place-items-center border-2 border-gray-400 items-center text-sm px-4 py-2 rounded-xl'>
+                                    <button key={index} className='min-w-[50%] cursor-pointer md:min-w-fit md:w-full max-w-full grid 
+                                    focus:border-red-500
+                                    place-items-center border-2 border-gray-400 items-center text-sm px-4 py-2 rounded-xl'>
                                         {option}
-                                    </h1>
+                                    </button>
                                 )
                             })
 

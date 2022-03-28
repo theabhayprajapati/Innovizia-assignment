@@ -26,7 +26,7 @@ const Header = () => {
             </div>
             <div className="flex items-center gap-8 ">
                 <div className="h-10 border rounded-full header-search cursor-pointer hidden md:flex items-center px-3">
-                    <input type="search" name="search" id="search" className='cursor-text outline-none w-60' placeholder="Search A Skill" />
+                    <input type="search" name="search" id="search" className='cursor-text placeholder:uppercase outline-none w-60' placeholder="Search A Skill"  />
                     <span>
                         <SearchIcon className="h-5 w-5 text-gray-500" />
                     </span>
