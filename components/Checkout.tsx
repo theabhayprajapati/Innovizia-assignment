@@ -114,7 +114,7 @@ const Checkout = () => {
                         <ArrowSmLeftIcon className="h-5 w-5 text-blue-700" />
                         Back to Personal Details
                     </h1>
-                    <button className='md:px-5 px-2 md:py-3 py-1 make-payment text-white rounded-full font-bold'>
+                    <button className='md:px-5 px-2 md:py-3 py-1 make-payment text-white rounded-full  font-bold text-[15px] md:text-[14px] h-[42px] w-[173px]'>
                         Make Payment
                     </button>
                 </div>

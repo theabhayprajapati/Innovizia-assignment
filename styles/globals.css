@@ -139,18 +139,19 @@ backdrop-filter: blur(20px);
 /* border: 1px solid #6A6A6A */
 }
 .make-payment {
-  
+  /* uppercase */
+  text-transform: uppercase;
 background: linear-gradient(112.33deg, #FC4D6D 23.89%, #FDA02F 94.22%);
 }
-.make-payment-font {
+.make-payment-font-sm {
   
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 14px;
+/* font-size: 14px; */
 line-height: 21px;
 /* identical to box height */
-
+/* upp */
 text-transform: capitalize;
 color: #3A59F3;
 }
