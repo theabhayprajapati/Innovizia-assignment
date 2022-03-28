@@ -3,12 +3,11 @@ import React from 'react'
 
 const OrderSummary = () => {
     return (
-        <div className="bg-white shadow-lg md:shadow-none md:bg-[#f5f4f4] p-5  rounded-3xl border-2 h-full mt-2 md:rounded-none">
+        <div className="bg-white shadow-lg md:shadow-none md:bg-[#f5f4f4] p-5  rounded-3xl border md:border-none h-full mt-2 md:rounded-none">
             <h1 className='font-bold uppercase cursor-pointer text-[#665F60]'>
-                ORDER SUMMARY <span className='text-xs text-[#4863ED] font-medium'>
+                Order Summary <span className='camelcase text-xs text-[#4863ED] font-medium'>
                     Edit
                 </span>
-
             </h1>
             <div className=' flex  p-5  border-y border-[#665F60] border-collapse my-2'>
                 <img src="/profile.svg" alt="" />
@@ -114,7 +113,7 @@ const OrderSummary = () => {
 
                     <input type="checkbox" name="checkbox" id="" className="bg-white checked:accent-green-500 border-red-400 peer-checked:text-green-500 outline-none" />
                 </span>
-                <p>
+                <p className="tnc">
                     I want a <span className="text-green-500">
                         free lesson</span> or a refund if the tutor doesn’t meet my needs
                 </p>

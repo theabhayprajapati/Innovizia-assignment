@@ -14,7 +14,7 @@
 
 @layer components {
   .sub-heading {
-    @apply text-opacity-60 text-sm font-bold text-[#665f60];
+    @apply text-opacity-60 text-sm text-[#665f60];
   }
   .heading {
     @apply font-bold text-[#665f60];
@@ -223,4 +223,16 @@ letter-spacing: 0.02em;
 
 color: #6B6B6B;
 
+}
+.tnc {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 112.5%;
+/* or 15px */
+
+letter-spacing: 0.07em;
+
+color: #6B6B6B;
 }

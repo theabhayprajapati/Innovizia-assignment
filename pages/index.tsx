@@ -18,11 +18,10 @@ const Home: NextPage = () => {
         <Header />
       </div>
       <main className="flex flex-col-reverse md:flex-row border-blue-400">
-        <div className='md:w-[70%]  mt-2 border-2'>
+        <div className='md:w-[70%] mt-2 border md:border-none rounded-3xl shadow-2xl  my-2 md:shadow-none'>
           <Checkout />
         </div>
-        <div className=' w-full md:w-[30%]'>
-
+        <div className='w-full md:w-[30%]'>
           <OrderSummary />
         </div>
       </main>

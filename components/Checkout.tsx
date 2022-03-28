@@ -8,12 +8,12 @@ const Checkout = () => {
         'Debit/Credit Card', 'Net Banking', 'UPI'
     ]
     return (
-        <div className="max-w-2xl">
-            <div className="border-b-2 p-5 gap-5 flex items-center">
+        <div className="max-w-2xl   ">
+            <div className="border-b-2 p-5 gap-5 hidden md:flex items-center">
                 {/* unordered list with dots */}
 
-                <ol type='A' className="flex gap-5">
-                    <li className="cursor-pointer payment-section flex items-center">
+                <ol type='A' className="flex gap-5 ">
+                    <li className="cursor-pointer  payment-section flex items-center">
                         Payment Details
                     </li>
                     <div className="flex justify-around gap-2 items-center cursor-pointer text-[#FC4D6D] border-b-2 border-red-500 payment-section">
@@ -30,7 +30,7 @@ const Checkout = () => {
                 <h1 className='uppercase heading'>
                     PAYMENT SECTION
                 </h1>
-                <h3 className='mt-5 sub-heading'>
+                <h3 className='mt-5 sub-heading font-semibold'>
                     SAVED CARDS
                 </h3>
                 <div className='flex gap-10 md:flex-row flex-col place-items-center'>
@@ -38,7 +38,7 @@ const Checkout = () => {
                     <Card cardtype={"mastercard"} />
                 </div>
                 <div className='mt-5'>
-                    <h2 className='sub-heading'>
+                    <h2 className='sub-heading camelcase'>
                         Other Payment Methods
                     </h2>
                     <div className='flex gap-4 overflow-scroll md:overflow-hidden h-14 items-center w-full'>
@@ -61,8 +61,8 @@ const Checkout = () => {
                         <label htmlFor="cardnumber" className="sub-heading">
                             Card Number
                         </label>
-                        <div className="flex justify-between card-line ">
-                            <input type="tel" pattern="[0-9]" inputMode='numeric' maxLength={16} name="cardnumber" id="cardnumber" placeholder="0000 0000 0000" className='outline-none w-full placeholder:text-black font-bold' />
+                        <div className="flex justify-between card-line items-center ">
+                            <input type="tel" pattern="[0-9]" inputMode='numeric' maxLength={16} name="cardnumber" id="cardnumber" placeholder="0000 0000 0000 0000" className='outline-none w-full placeholder:text-[#505050] font-semibold' />
                             <svg className='card-svg' width="23" height="15" viewBox="0 0 23 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_2_193)">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.80127 1.59493H14.7314V12.8502H8.80127V1.59493Z" fill="#FF8136" />
@@ -82,7 +82,7 @@ const Checkout = () => {
                         <label htmlFor="nameoncard" className="sub-heading">
                             Name on card
                         </label>
-                        <input type="text" name="nameoncard" id="nameoncard" placeholder="Name on Card" className='outline-none w-full card-line ' />
+                        <input type="text" name="nameoncard" id="nameoncard" placeholder="Enter your name" className='outline-none w-full card-line placeholder:uppercase font-semibold ' />
                     </div>
                     <div className="grid grid-cols-2 gap-2 md:gap-2 col-span-2 md:col-span-1 justify-between mt-2">
                         <div className='card-line'>
