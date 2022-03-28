@@ -14,15 +14,8 @@ const Header = () => {
             </svg>
 
             <div className="flex items-center cursor-pointer" >
-                <img src="/vercel.svg" alt="" className="md:h-[62px] md:w-[56px] h-[36px] w-[30px] " />
-                <div className='items-center flex flex-col mx-2  justify-center'>
-                    <h1 className="header-text text-[12px] w-full items-center justify-self-center md:text-[26px]">
-                        Stilly Tree
-                    </h1>
-                    <p className="md:text-[9px] header-small-text text-[4px] font-extralight">
-                        upstill with a personal touch
-                    </p>
-                </div>
+                <img src="/logomd.svg" alt="logomd" className="hidden md:inline-block"/>
+                <img src="/logodm.svg" alt="logodm" className="md:hidden"/>
             </div>
             <div className="flex items-center gap-8 ">
                 <div className="h-10 border rounded-full header-search cursor-pointer hidden md:flex items-center px-3">
